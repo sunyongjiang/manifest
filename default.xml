@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch=".." name="origin" review="https://github.com/sunyongjiang/manifest.git"/>
-  <default remote="origin" revision="main_dev"/>
-	<project name="https://github.com/sunyongjiang/repotest_test1.git" path="repotest_test1"/>
-	<project name="https://github.com/sunyongjiang/repotest_test2.git" path="repotest_test2"/>
+  <remote fetch="https://github.com/sunyongjiang" name="origin" review=""/>
+  <default remote="origin" revision="master"/>
+	<project name="repotest_test1.git" path="repotest_test1"/>
+	<project name="repotest_test2.git" path="repotest_test2"/>
 </manifest>
