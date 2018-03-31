@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="test" fetch=".." review="https://github.com/sunyongjiang"/>
-	<default revision="manifest.git" remote="test" sync-j="4"/>
-	<project path="art" name="repotest_test1.git"/>
+  <remote fetch="git://http://xxx.xxx.xxx" name="origin" review="http://xxx.xxx.xxx:8080"/>
+  <default remote="origin" revision="main_dev"/>
+	<project name="platform/mediatek/modem/interface" path="interface"/>
+	<project name="platform/mediatek/modem/service" path="service"/>
 </manifest>
